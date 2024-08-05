@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    width: 50%;
+    margin: 0 auto;
+}
+.content{
+    width: 360px;
+    h1{
+        text-align: center;
+    }
+    .container{
+        border: 2px solid black;
+        height: 600px;
+        background-color: grey;
+        padding: 10px 20px;
+        border-radius: 20px;
+        
+        }
+        #inputFiled{
+            height: 50px;
+            border: 1px solid gray ;
+            font-size: 25px;
+            outline: linen;
+            vertical-align: middle;
+            border-radius: 10px;
+        }
+        #btnAdd{
+            cursor: pointer;
+            position: relative;
+            top: 4px;
+            height: 50px;
+            width: auto;
+            font-size: 25px;
+            border-radius: 10px;
+            border: 1px solid gold;
+            transition: 0.4 ease;
+          
+        }
+        #btnAdd2{
+            margin-left: 260px ;
+            cursor: pointer;
+            position: relative;
+            top: 4px;
+            height: 50px;
+            width: 53px;
+            font-size: 25px;
+            border-radius: 10px;
+            border: 1px solid gold;
+            transition: 0.4 ease;
+          
+        }
+     
+        .todo{
+         margin-top: 30px;
+         text-align: center;
+         font-size: 25px;
+         font-family: 'Times New Roman', Times, serif;   
+         text-transform: uppercase;
+
+         li{
+            list-style:circle;
+         }
+        }
+    }
